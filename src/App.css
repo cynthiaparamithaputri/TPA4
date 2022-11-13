@@ -1,0 +1,434 @@
+/* reset style */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    background-color: rgb(16, 19, 22);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-brand #fn {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navbar-brand #ln {
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Inter Tight', sans-serif;
+    color: rgb(215, 157, 112);
+}
+
+.navbar ul li a {
+    font-size: 1.25rem;
+}
+
+.navbar ul li a:hover {
+    color: rgb(215, 157, 112);
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 75px 15px;
+}
+
+.container-img {
+    width: 50%;
+}
+
+.home-text {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-text h1 {
+    color: rgb(215, 157, 112);
+    font-weight: 700;
+    font-size: 3rem;
+    font-style: italic;
+    font-family: 'Inter Tight', sans-serif;
+    letter-spacing: 10px;
+}
+
+.home-text h3 {
+    font-weight: 200;
+    font-size: 1rem;
+    font-family: 'Inter Tight', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.home-text .btn {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 5px 50px;
+    border-radius: 10px;
+    background-color: rgb(215, 157, 112);
+    color: rgb(16, 19, 22);
+    border: none;
+}
+
+.home-text .btn:hover {
+    color: rgb(215, 157, 112);
+    background-color: white;
+}
+
+.profile-img {
+    width: 200px;
+    border: 2px solid;
+    border-color: rgb(215, 157, 112);
+}
+
+.about {
+    margin-top: 75px;
+}
+
+.about-intro {
+    margin-top: 25px;
+}
+
+.about-intro h3 {
+    font-weight: 300;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Inter Tight', sans-serif;
+    letter-spacing: 2px;
+}
+
+.about-intro h3 .bold {
+    font-weight: 700;
+    color: rgb(215, 157, 112);
+}
+
+.about-text {
+    padding: 1rem 3rem 3rem 3rem;
+    margin: 2rem 4rem;
+    border-radius: 10px;
+}
+
+.about-text,
+.about-text p,
+.about-text h3,
+.about-text ul,
+.about-text ul li,
+.about-text a {
+    color: rgb(16, 19, 22);
+    background-color: rgb(215, 157, 112);
+}
+
+.about-text h3,
+.article-text h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.about-text h3 {
+    margin-top: 2rem;
+}
+
+.about-text p,
+.article-text p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.about-text ul {
+    margin-top: 0.5rem;
+}
+
+.about-text ul li {
+    list-style: disc;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.about-text a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.about-text a:hover {
+    color: white;
+}
+
+.back-btn .btn {
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 5px 50px;
+    border-radius: 10px;
+    background-color: rgb(215, 157, 112);
+    color: rgb(16, 19, 22);
+    border: none;
+    margin-bottom: 3rem;
+}
+
+.back-btn .btn:hover {
+    color: rgb(215, 157, 112);
+    background-color: white;
+}
+
+.embed-responsive iframe {
+    width: 35rem;
+    height: 25rem;
+    margin-bottom: 2rem;
+}
+
+.porto {
+    margin: 4rem 2rem;
+}
+
+.porto h1 {
+    font-weight: 300;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Inter Tight', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.article-container {
+    padding: 2rem;
+    margin: 2rem 4rem;
+}
+
+.article-container,
+.article-container h3,
+.article-title-container,
+.article-text,
+.article-text ul,
+.article-text ul li,
+.article-text p {
+    color: rgb(16, 19, 22);
+    background-color: rgb(215, 157, 112);
+}
+
+.article-container h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.article-title {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.article-title:hover {
+    color: white;
+}
+
+.article-text ul li {
+    list-style: disc;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.article h1 {
+    font-size: 2rem;
+}
+
+@media only screen and (max-width:960px) {
+    .card {
+        width: 150px;
+    }
+    .container-img {
+        width: auto;
+    }
+    .home-text h1 {
+        font-size: 2rem;
+    }
+    .home-text .btn {
+        font-weight: 500;
+        font-size: 1rem;
+        padding: 5px 40px;
+    }
+    .profile-img {
+        width: 150px;
+    }
+    .about-intro h3 {
+        font-size: 1.5rem;
+    }
+    .about-text h3,
+    .article-container h3,
+    .article-text h3 {
+        font-size: 1.25rem;
+    }
+    .about-text p,
+    .article-text p {
+        font-size: 0.75rem;
+    }
+    .about-text ul li,
+    .article-text ul li {
+        font-size: 0.75rem;
+    }
+    .about-text a {
+        font-size: 0.75rem;
+    }
+    .back-btn .btn {
+        font-size: 1rem;
+        padding: 4px 40px;
+    }
+    .article h1,
+    .porto h1 {
+        font-size: 1.5rem;
+    }
+    .embed-responsive iframe {
+        width: 30rem;
+        height: 20rem;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .card {
+        width: 100px;
+    }
+    .container-img {
+        width: auto;
+    }
+    .home-text h1 {
+        font-size: 1.5rem;
+    }
+    .home-text h3 {
+        font-size: 0.75rem;
+    }
+    .home-text .btn {
+        font-size: 1rem;
+        padding: 3px 35px;
+    }
+    .profile-img {
+        width: 125px;
+    }
+    .about-intro h3 {
+        font-size: 1rem;
+    }
+    .about-text h3,
+    .article-container h3,
+    .article-text h3 {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+    .about-text p,
+    .article-text p {
+        margin-top: 0.25rem;
+        font-size: 0.5rem;
+    }
+    .about-text ul,
+    .article-text ul {
+        margin-top: 0;
+    }
+    .about-text ul li,
+    .article-text ul li {
+        font-size: 0.5rem;
+    }
+    .about-text a {
+        font-size: 0.5rem;
+    }
+    .about-text,
+    .article-container {
+        padding: 0.5rem 2rem 2rem 2rem;
+        margin: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .back-btn .btn {
+        font-size: 0.75rem;
+        padding: 3px 30px;
+    }
+    .article-title {
+        font-size: 0.75rem;
+    }
+    .article h1,
+    .porto h1 {
+        font-size: 1rem;
+    }
+    .embed-responsive iframe {
+        width: 25rem;
+        height: 15rem;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .card {
+        width: 75px;
+    }
+    .container-img {
+        width: auto;
+    }
+    .home-text h1 {
+        font-size: 1rem;
+    }
+    .home-text h3 {
+        font-size: 0.75rem;
+    }
+    .home-text .btn {
+        font-size: 0.75rem;
+        padding: 3px 25px;
+    }
+    .navbar-brand #fn {
+        font-size: 1.5rem;
+    }
+    .navbar-brand #ln {
+        font-size: 1rem;
+    }
+    .profile-img {
+        width: 100px;
+    }
+    .about-intro h3 {
+        font-size: 0.5rem;
+    }
+    .about-text h3,
+    .article-container h3,
+    .article-text h3 {
+        font-size: 0.75rem;
+    }
+    .about-text,
+    .article-container {
+        padding: 0.25rem 1rem 1rem 1rem;
+        margin: 1rem 2rem;
+        border-radius: 10px;
+    }
+    .back-btn .btn {
+        font-size: 0.5rem;
+        padding: 2px 25px;
+    }
+    .article-title {
+        font-size: 0.5rem;
+    }
+    .article h1,
+    .porto h1 {
+        font-size: 0.75rem;
+    }
+    .embed-responsive iframe {
+        width: 20rem;
+        height: 35rem;
+    }
+}
